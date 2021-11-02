@@ -18,6 +18,7 @@ public class SimpleTest extends BaseTest{
 	public void display(String a,String  b) {
 		System.out.println(a);
 		System.out.println(b);
+		System.out.println();
 	}
 	
 	@Parameters({"OS","Browser"})
